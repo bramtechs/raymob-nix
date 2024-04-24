@@ -5,9 +5,10 @@
 
 Last tested on 2024/04/24 on NixOS Stable NixOS 23.11.
 
-It might not work on future versions but this repo can be a stepping
-stone for people wanting to compile Raylib for Android on NixOS. It is
-also a reminder for myself as this was painful to setup.
+It might not work on future versions, but this repo can be a stepping
+stone if you want to compile Raylib for Android on NixOS. It is also a
+reminder for myself as this was painful to setup due to lack of Nix
+documentation.
 
 Flakes are not used.
 
