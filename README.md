@@ -1,3 +1,27 @@
+
+---
+
+## Build with Nix
+
+Last tested on 2024/04/24 on NixOS Stable NixOS 23.11.
+
+It might not work on future versions but this repo can be a stepping
+stone for people wanting to compile Raylib for Android on NixOS. It is
+also a reminder for myself as this was painful to setup.
+
+Flakes are not used.
+
+```
+nix-shell
+
+chmod +x gradlew
+./gradlew build
+
+find . | grep .apk
+```
+
+---
+
 <img src="app/src/main/ic_launcher-playstore.png" alt="raymob icon" width="256" height="256">
 
 # raymob [![Targeting raylib 5.0](https://img.shields.io/badge/raylib-5.0-3DDC84)](https://raylib.com) [![Supported Platforms](https://img.shields.io/badge/Platform-Android-3DDC84)](https://developer.android.com/) [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE) [![License](https://img.shields.io/badge/license-zlib%2Flibpng-blue.svg)](LICENSE)
